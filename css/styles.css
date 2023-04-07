@@ -557,8 +557,8 @@ body {
   transform: translateY(100%);
   transition: transform var(--timing-function), opacity var(--timing-function);
 }
-.portfolio-action:hover .portfolio-action-text,
-.portfolio-action:focus .portfolio-action-text {
+.portfolio-link:hover .portfolio-action-text,
+.portfolio-link:focus .portfolio-action-text {
   opacity: 1;
   transform: translateY(0);
 }
